@@ -4,8 +4,10 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import store from './components/redux/configureStore';
 import App from './App';
 import { getRocktes } from './components/redux/rockets/rockets';
+import { getMissions } from './components/redux/missions/missions';
 
 store.dispatch(getRocktes());
+store.dispatch(getMissions());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
