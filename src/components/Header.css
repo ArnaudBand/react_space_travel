@@ -1,0 +1,40 @@
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  column-gap: 10px;
+}
+
+.header--img {
+  height: 100%;
+  margin-right: 8px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project {
+  display: flex;
+  column-gap: 10px;
+  list-style-type: none;
+}
+
+li a {
+  color: rgb(65, 65, 226);
+  font-size: 1rem;
+  font-weight: 500;
+}
