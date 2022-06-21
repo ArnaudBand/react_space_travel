@@ -1,6 +1,6 @@
 import React from 'react';
-import './Header.css';
 import routes from '../routes';
+import './Header.css';
 
 export default function Header() {
   return (
