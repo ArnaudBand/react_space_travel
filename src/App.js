@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
+import Rockets from './components/Rockets/Rockets';
 
 export default function App() {
   return (
     <div className="App">
-      <Header />
+      <Routes>
+        <Route path="/" element={<Rockets />} />
+      </Routes>
     </div>
   );
 }
