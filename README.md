@@ -1,18 +1,47 @@
-# Getting Started with Create React App and Redux
+# Space_Traveler_Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/SpaceTravelerHub-redviolet)
 
-## Available Scripts
 
-In the project directory, you can run:
+A web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. In this website we worked with the real live data from the SpaceX API
+ 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
+## Built With
+
+- Major languages
+  - React
+  - Javascript
+  - Css
+
+- Frameworks
+  - React Hook
+
+- Technologies used
+  - github
+  - npm
+
+## Getting Started
+
+**This are steps on how to install the react app.**
+
+To get a local copy up and running follow these simple example steps.
+
+### `clone repository on your local device`
+
+copy this link to get HTTP url to clone Into your device `https://github.com/ArnaudBand/react_space_travel.git`
+
+
+### Prerequisites
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -31,16 +60,33 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Authors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👤 **Fatima Zahir**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- GitHub: [@githubhandle](https://github.com/Fatima-hub333)
+- Twitter: [@twitterhandle](https://twitter.com/Fatima_developr)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/full-stack-webdeveloper-181583234/)
 
-## Learn More
+**Arnaud Bandonkeye**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [@githubhandle](https://github.com/ArnaudBand)
+- Twitter: [@twitterhandle](https://twitter.com/@ba104781)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ArnaudBandonkeye)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ArnaudBand/react_space_travel/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
