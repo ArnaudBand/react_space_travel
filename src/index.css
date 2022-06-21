@@ -1,4 +1,32 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.block_rocket {
+  display: flex;
+  justify-content: left;
+  margin: 1rem 2rem;
+}
+
+.text_block {
+  margin: 0 2rem;
+}
+
+.text_block h2 {
+  padding: 1rem 0;
+}
+
+.text_block p {
+  margin: 0 1rem 1rem 0;
+}
+
+.text_block button {
+  font-size: 1.1rem;
+  padding: 0.5rem 2rem;
+  background-color: rgb(14, 121, 229);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.2rem;
 }
