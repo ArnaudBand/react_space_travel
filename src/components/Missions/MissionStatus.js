@@ -10,7 +10,7 @@ export default function MissionStatus(props) {
     fontSize: '14px',
     padding: '3px 5px',
     whiteSpace: 'nowrap',
-    color: 'white',
+    color: '#893c3c',
   };
 
   return (

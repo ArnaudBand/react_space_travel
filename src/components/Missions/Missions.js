@@ -76,4 +76,4 @@ export default function Missions() {
   }
 
   return <div className="missions">{content}</div>;
-};
+}
