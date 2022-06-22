@@ -1,16 +1,16 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Missions from './components/Missions/Missions';
-import RocketsPage from './pages/rockets';
+import routes from './routes';
 
 export default function App() {
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<RocketsPage />} />
-        <Route path="/missions" element={<Missions />} />
+        {routes.map((route) => (
+          <Route path={route.path} element={route.element} key={route.id} />
+        ))}
       </Routes>
     </div>
   );
