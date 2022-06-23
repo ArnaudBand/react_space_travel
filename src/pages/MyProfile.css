@@ -1,0 +1,19 @@
+.myProfileDisplays {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.title_missions {
+  margin: 2rem 3rem;
+}
+
+.mission_profile {
+  margin: 2rem 3rem;
+}
+
+.mission_profile h3 {
+  border: 1px solid #003;
+  padding: 1rem;
+  width: 30rem;
+}
