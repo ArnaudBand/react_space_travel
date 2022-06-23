@@ -44,3 +44,17 @@
   border: none;
   border-radius: 0.2rem;
 }
+
+.title_rockets {
+  margin: 2rem 3rem;
+}
+
+.rocket_profile {
+  margin: 2rem 3rem;
+}
+
+.rocket_profile p {
+  border: 1px solid #003;
+  padding: 1rem;
+  width: 30rem;
+}
