@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 import routes from '../routes';
 
 export default function Header() {
@@ -10,7 +11,9 @@ export default function Header() {
       <ul className="header--project">
         {routes.map((route) => (
           <li key={route.id}>
-            <a href={route.path}>{route.title}</a>
+            <Link to={route.path}>
+              {route.title}
+            </Link>
           </li>
         ))}
       </ul>
