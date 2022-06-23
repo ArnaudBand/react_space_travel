@@ -37,3 +37,10 @@
   border: none;
   border-radius: 0.2rem;
 }
+
+.cancel-btn {
+  font-size: 1.1rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.2rem;
+}
