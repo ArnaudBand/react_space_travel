@@ -18,7 +18,7 @@ const routes = [
   {
     id: 2,
     path: '/profile',
-    title: 'MyProfile',
+    title: 'My Profile',
     element: <Profile />,
   },
 ];
