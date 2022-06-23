@@ -1,5 +1,6 @@
 import MissionsPage from './pages/MissionsPage';
 import RocketsPage from './pages/rockets';
+import Profile from './pages/Profiles';
 
 const routes = [
   {
@@ -18,6 +19,7 @@ const routes = [
     id: 2,
     path: '/profile',
     title: 'MyProfile',
+    element: <Profile />,
   },
 ];
 
