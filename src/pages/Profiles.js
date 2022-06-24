@@ -11,23 +11,21 @@ const Profile = () => {
   return (
     <>
       <div className="myProfileDisplays">
-        <h2 className="title_rockets">My Rockets</h2>
-        <div className="rocket_profile">
+        <div className="reservationDisplay">
+          <h1>My Rockets</h1>
           {rocketReserved.map((rocket) => <p key={rocket.id}>{rocket.name}</p>)}
         </div>
 
         <div className="missionsDisplay">
-          <h2 className="title_missions">My Joined Missions</h2>
-          <div className="mission_profile">
-            {!joinedMissions.length ? (
-              <h3 className="NoReservedRockets">No mission joined</h3>
-            ) : (
-              joinedMissions.map((joinedOne) => (
-                <h3 key={joinedOne.mission_id}>{joinedOne.mission_name}</h3>
+          <h2>My Joined Missions</h2>
+          {!joinedMissions.length ? (
+            <h3 className="NoReservedRockets">No mission joined</h3>
+          ) : (
+            joinedMissions.map((joinedOne) => (
+              <h3 key={joinedOne.mission_id}>{joinedOne.mission_name}</h3>
 
-              ))
-            )}
-          </div>
+            ))
+          )}
         </div>
       </div>
     </>

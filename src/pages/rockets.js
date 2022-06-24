@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import Rockets from '../components/Rockets/Rockets';
 import { getRocktes } from '../components/redux/rockets/rockets';
+import './rockets.css';
 
 const RocketsPage = () => {
   const dispatch = useDispatch();
@@ -12,7 +13,7 @@ const RocketsPage = () => {
   }, []);
 
   return (
-    <div className="pages-content">
+    <div>
       {rocketList.map((rocket) => (
         <Rockets
           key={rocket.id}
