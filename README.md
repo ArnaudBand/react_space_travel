@@ -24,6 +24,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
+### Live Demo (if available)
+
+[Live](https://holiday-2.herokuapp.com/)
+
 **This are steps on how to install the react app.**
 
 To get a local copy up and running follow these simple example steps.
