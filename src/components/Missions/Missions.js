@@ -9,7 +9,7 @@ import {
 } from '../redux/missions/missions';
 import './Missions.css';
 
-export default function Missions() {
+const Missions = () => {
   const { missions, loading } = useSelector((state) => state.missions);
   const dispatch = useDispatch();
 
@@ -76,4 +76,6 @@ export default function Missions() {
   }
 
   return <div className="missions">{content}</div>;
-}
+};
+
+export default Missions;
