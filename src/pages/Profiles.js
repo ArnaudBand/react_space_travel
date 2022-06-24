@@ -13,7 +13,7 @@ const Profile = () => {
       <div className="myProfileDisplays">
         <div className="reservationDisplay">
           <h1>My Rockets</h1>
-          {rocketReserved.map((rocket) => <p key={rocket.id}>{rocket.name}</p>)}
+          {rocketReserved.map((rocket) => <p className="rocketReserved" key={rocket.id}>{rocket.name}</p>)}
         </div>
 
         <div className="missionsDisplay">
