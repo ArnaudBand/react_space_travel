@@ -1,22 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.css';
+import { NavLink } from 'react-router-dom';
 import routes from '../routes';
+import './Header.css';
 
-export default function Header() {
-  return (
-    <header>
-      <img src="../images/logo.png" alt="Logo" className="header--img" />
-      <h1 className="header--title"> Space Travelers Hub</h1>
-      <ul className="header--project">
+const Navbar = () => (
+  <header className="containedHeader">
+    <div className="logo-title">
+      <img src="../images/logo.png" className="img-logo" alt="Page's Logo" />
+      <h1>Space Travelers Hub</h1>
+    </div>
+    <nav>
+      <ul className="nav-list">
         {routes.map((route) => (
           <li key={route.id}>
-            <Link to={route.path}>
+            <NavLink
+              className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}
+              to={route.path}
+            >
               {route.title}
-            </Link>
+            </NavLink>
           </li>
         ))}
       </ul>
-    </header>
-  );
-}
+    </nav>
+  </header>
+);
+
+export default Navbar;

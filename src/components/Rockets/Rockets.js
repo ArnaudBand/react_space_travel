@@ -19,12 +19,14 @@ const Rockets = ({
   };
 
   return (
-    <div className="block_rocket">
-      <img src={image} alt={name} width="250" className="img_rockets" />
-      <div className="text_block">
+    <div className="rocket-info flex-row">
+      <div className="rocket-image">
+        <img src={image} alt={name} width="250" className="img_rockets" />
+      </div>
+      <div className="rocket-details flex-column">
         <h2>{name}</h2>
         <p>
-          {reserved && <span className="span">Reserved</span>}
+          {reserved && <span className="reservationSpan flex-row">Reserved</span>}
           {description}
         </p>
         {!reserved && (

@@ -2,22 +2,16 @@
   padding: 15px;
 }
 
-thead {
-  text-align: left;
-}
-
 table,
 th,
 td {
   border: 1.5px solid #e4e4e4;
   border-collapse: collapse;
-  padding: 20px 15px 15px 10px;
+  padding: 5px 10px 5px 10px;
 }
 
 tr:nth-child(even) {
-  background-color: #f8f2f2;
-  color: black;
-  font-weight: 600;
+  background-color: #d0d0d0;
 }
 
 .leavemission-btn {
@@ -25,6 +19,9 @@ tr:nth-child(even) {
   width: 100px;
   height: 40px;
   font-size: 14px;
+  background-color: white;
+  border-color: red;
+  border-radius: 5px;
 }
 
 .joinmission-btn {

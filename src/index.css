@@ -1,60 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+html {
   box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
 }
 
-.block_rocket {
-  display: flex;
-  justify-content: left;
-  margin: 1rem 2rem;
+:root {
+  --black: #212121;
+  --black-1: #707580;
+  --black-2: #dadada;
+  --grey: #dadada;
+  --purple: #4d17ff;
+  --green: #0099b6;
+  --light-blue: #3b7b99;
+  --white: #fff;
 }
 
-.text_block {
-  margin: 0 2rem;
-}
-
-.text_block h2 {
-  padding: 1rem 0;
-}
-
-.text_block p {
-  margin: 0 1rem 1rem 0;
-  line-height: 22px;
-}
-
-.text_block .span {
-  border: 1px solid #000;
-  padding: 0.2rem 0.5rem;
-  margin: 0 1rem 2rem 0;
-}
-
-.text_block .reserve-btn {
-  font-size: 1.1rem;
-  padding: 0.5rem 2rem;
-  background-color: rgb(14, 121, 229);
-  color: rgb(255, 255, 255);
-  border: none;
-  border-radius: 0.2rem;
-}
-
-.cancel-btn {
-  font-size: 1.1rem;
-  padding: 0.5rem 2rem;
-  border: none;
-  border-radius: 0.2rem;
-}
-
-.title_rockets {
-  margin: 2rem 3rem;
-}
-
-.rocket_profile {
-  margin: 2rem 3rem;
-}
-
-.rocket_profile p {
-  border: 1px solid #003;
-  padding: 1rem;
-  width: 30rem;
+h1,
+h2,
+a {
+  font-family: Montserrat, sans-serif;
 }
