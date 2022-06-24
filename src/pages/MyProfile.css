@@ -16,6 +16,11 @@
   padding: 15px;
 }
 
+.rocketReserved {
+  border: 1px solid #002;
+  padding: 1rem 2rem;
+}
+
 .reservationDisplay,
 .missionsDisplay {
   width: 50% !important;

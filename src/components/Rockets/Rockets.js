@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import {
   reserveRocket, cancelReservation,
 } from '../redux/rockets/rockets';
+import '../../pages/rockets.css';
 
 const Rockets = ({
   id, name, description, image, reserved,
@@ -26,7 +27,7 @@ const Rockets = ({
       <div className="rocket-details flex-column">
         <h2>{name}</h2>
         <p>
-          {reserved && <span className="reservationSpan flex-row">Reserved</span>}
+          {reserved && <span className="reservationSpan">Reserved</span>}
           {description}
         </p>
         {!reserved && (
